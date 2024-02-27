@@ -1,1 +1,162 @@
-/*this is my css file*/
+body{
+    display: flex;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    width: 1550px;
+    max-height: 1000px;
+    border-collapse: collapse;
+}
+.left-column{
+    background-color: #2F3C7E;
+    border: solid 1px #202020;
+}
+.right-column{
+    background-color: #408EC6;
+    border: solid 1px #202020;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    border-collapse: collapse;
+}
+.top{
+    background-color: #2F3C7E;
+    border: solid 1px #202020;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.bottom{
+    border: solid 1px #202020;
+    display:flexbox;
+    
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    margin-left: 10px;
+    color: white;
+}
+.super-cool-project{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+    display: flexbox;
+}
+.less-cool-project{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+}
+.impossible-app{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+}
+.easy-peasy-app{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: 185px;
+    right: 320px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+}
+.ad-blocker{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: 355px;
+    right: 320px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+}
+.money-making-app{
+    background-color: #2F3C7E;
+    width: 300px;
+    height: 150px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    top: 525px;
+    right: 320px;
+    border-left: solid 20px #7A2048;
+    border-radius: 5%;
+}
+h3{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0px 0px 5px;
+    font-size: larger;
+}
+span{
+    color: #408EC6;
+    font-size: medium;
+    font-style: normal;
+}
+.searchBar{
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 6.2fr 0.5fr 1fr 4fr;
+}
+img{
+    width: 40px;
+    height:40px;
+    margin: 20px 20px 0px 20px;
+}
+.search{
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    margin-top: 20px;
+    position: absolute;
+    left: 400px;
+}
+.searchLeft{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50% 0% 0% 50%;
+    margin-top: 20px;
+}
+.searchRight{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 0% 50% 50% 0%;
+    margin-top: 20px;
+    position: absolute;
+    left: 900px;
+}
+.notifyIcon{
+    width: 40px;
+    height:40px;
+    margin: 20px 20px 0px 20px;
+    position: absolute;
+    right: 300px;
+}
+.profileIcon{
+    position: absolute;
+    right: 230px;
+}
+.profileName{
+    position: absolute;
+    left: 1120px;
+    font-weight: 600;
+    margin-top: 20px;
+}
